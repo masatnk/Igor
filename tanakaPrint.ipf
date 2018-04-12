@@ -373,6 +373,7 @@ function printPeaks ([wave1, thresholdType, threshold, polarity, sttime, entime,
 		if (dpn)
 			display $destwave
 		endif
+		thres = threshold
 
 		if (thresholdType == 0)		// threshold = max, resting = mode
 			wavestats /Q /R=(stt, ent) $destwave
