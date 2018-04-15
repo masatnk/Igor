@@ -115,7 +115,7 @@ function assembleToMatrix([waves, dim, imaginary, namewave])
 
 end
 
-
+```
 function vectorTo3D([waves, type, row, col, imaginary, namewave])
 	String waves, namewave
 	Variable type, row, col, imaginary
@@ -201,6 +201,7 @@ function vectorTo3D([waves, type, row, col, imaginary, namewave])
 		While(rowindex < row)
 	endif
 end
+```
 
 function matrixToVector([waves, namewave, strow, enrow, stcol, encol, stdepth, endepth])
 	String waves, namewave
